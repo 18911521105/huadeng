@@ -16,11 +16,11 @@ public class SmsUtils {
     static final String domain = "dysmsapi.aliyuncs.com";
 
     // TODO 此处需要替换成开发者自己的AK(在阿里云访问控制台寻找)
-    static final String accessKeyId = "LTAIA7L5fBP11vCN";
-    static final String accessKeySecret = "wd7OOkL5ZHY7vssL0utLka0nCjC2Ud";
+    static final String accessKeyId = "xxx";
+    static final String accessKeySecret = "xxxxxxx";
 
     public static void main(String[] args) {
-		System.out.println(sendSms("18911521105", "{\"code\":\"123\"}", "卷柏健康", "SMS_109440257"));
+		System.out.println(sendSms("18911521105", "{\"code\":\"123\"}", "xxxxx", "SMS_109440257"));
 	}
     
     public static boolean sendSms(String mobile, String templateParam, String signName, String templateCode) {
